@@ -1,6 +1,8 @@
 {
   "Cancel": "取消",
-  "Reset to Defaults": "返回默认",
+  "Reset to Defaults": "恢复默认",
+  "Hotkeys": "热键",
+  "Language": "语言",
   "Save": "保存",
   "User Preferences": "用户偏好"
 }

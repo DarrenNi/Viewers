@@ -140,7 +140,7 @@ function StudyListRoute(props) {
   if (searchStatus.error) {
     return <div>Error: {JSON.stringify(searchStatus.error)}</div>;
   } else if (studies === [] && !activeModalId) {
-    return <div>Loading...</div>;
+    return <div>加载中...</div>;
   }
 
   let healthCareApiButtons = null;

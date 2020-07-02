@@ -16,7 +16,7 @@
   "DicomAet": "ORTHANC",
   "DicomCheckCalledAet": false,
   "DicomPort": 4242,
-  "DefaultEncoding": "Latin1",
+  "DefaultEncoding": "Chinese",
   "DeflatedTransferSyntaxAccepted": true,
   "JpegTransferSyntaxAccepted": true,
   "Jpeg2000TransferSyntaxAccepted": true,

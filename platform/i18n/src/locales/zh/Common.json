@@ -3,13 +3,16 @@
   "Layout": "显示窗口",
   "Measurements": "测量值",
   "More": "更多",
-  "Next": "下一个",
+  "Next": "下一页",
   "Play": "播放",
-  "Previous": "上一个",
+  "Previous": "上一页",
   "Reset": "复原",
   "RowsPerPage": "每页条数",
   "Series": "序列",
   "Show": "显示",
   "Stop": "停止",
-  "StudyDate": "时间"
+  "StudyDate": "时间",
+  "StudyList": "研究列表",
+  "Measurements": "测量",
+  "Accession #": "登记号"
 }

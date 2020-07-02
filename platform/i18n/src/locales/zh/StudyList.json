@@ -4,5 +4,8 @@
   "PatientName": "患者姓名",
   "StudyDate": "检查日期",
   "StudyDescription": "描述",
-  "StudyList": "检查列表"
+  "StudyList": "检查列表",
+  "MRN": "病案号",
+  "Accession #": "登记号",
+  "Description": "描述"
 }
