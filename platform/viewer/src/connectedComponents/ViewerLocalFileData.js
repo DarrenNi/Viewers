@@ -127,7 +127,7 @@ class ViewerLocalFileData extends Component {
               <div className={'drag-drop-instructions'}>
                 <div className={'drag-drop-contents'}>
                   {this.state.loading ? (
-                    <h3>{this.props.t('Loading...')}</h3>
+                    <h3>{this.props.t('加载中...')}</h3>
                   ) : (
                     <>
                       <h3>

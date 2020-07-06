@@ -1,5 +1,19 @@
 {
-  "Name": "Orthanc inside Docker",
+  "Name" : "安贞医院介入诊疗科智能科研工作站DICOM服务器",
+
+  // Mysql插件配置
+/*  "MySQL" : {
+    "EnableIndex" : true,  //使用mysql存储文件索引
+    "EnableStorage" : false,  //使用mysql存储dicom文件
+    "Host" : "localhost",    // For TCP connections (notably Windows)
+    "Port" : 3306,           // For TCP connections (notably Windows)
+    "UnixSocket" : "docker.for.mac.host.internal::3306",  // For UNIX on localhost, Linux set to blank
+    "Database" : "orthanc_db",
+    "Username" : "root",
+    "Password" : "root",
+    "Lock" : false            // 单个orthanc server独占数据库，如果使用多个orthanc server共享mysql数据库，必须关闭
+  },
+*/
   "StorageDirectory": "/var/lib/orthanc/db",
   "IndexDirectory": "/var/lib/orthanc/db",
   "StorageCompression": false,

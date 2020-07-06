@@ -162,7 +162,7 @@ function StudyList(props) {
           <tr className="no-hover">
             <td colSpan={tableMeta.length}>
               <div className="notFound">
-                {t('There was an error fetching studies')}
+                {t('搜索过程中发生错误')}
               </div>
             </td>
           </tr>
@@ -171,7 +171,7 @@ function StudyList(props) {
         {!isLoading && !studies.length && (
           <tr className="no-hover">
             <td colSpan={tableMeta.length}>
-              <div className="notFound">{t('No matching results')}</div>
+              <div className="notFound">{t('无结果')}</div>
             </td>
           </tr>
         )}

@@ -7,7 +7,7 @@ const Component = React.lazy(() => {
 
 const DicomMicroscopyViewport = props => {
   return (
-    <React.Suspense fallback={<div>Loading...</div>}>
+    <React.Suspense fallback={<div>加载中...</div>}>
       <Component {...props} />
     </React.Suspense>
   );

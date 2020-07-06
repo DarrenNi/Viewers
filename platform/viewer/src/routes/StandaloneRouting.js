@@ -164,7 +164,7 @@ class StandaloneRouting extends Component {
   render() {
     const message = this.state.error
       ? `Error: ${JSON.stringify(this.state.error)}`
-      : 'Loading...';
+      : '加载中...';
     if (this.state.error || this.state.loading) {
       return <NotFound message={message} showGoBackButton={this.state.error} />;
     }

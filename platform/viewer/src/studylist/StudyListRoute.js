@@ -426,7 +426,7 @@ function _sortStudies(studies, field, order) {
   const sortedStudies = studies.map(study => {
     if (!moment(study.StudyDate, 'MMM DD, YYYY', true).isValid()) {
       study.StudyDate = moment(study.StudyDate, 'YYYYMMDD').format(
-        'MMM DD, YYYY'
+        'YYYY年MM月DD日'
       );
     }
     return study;

@@ -4,7 +4,9 @@ import moment from 'moment';
 import { isInclusivelyBeforeDay } from 'react-dates';
 import CustomDateRangePicker from './CustomDateRangePicker.js';
 import { Icon } from './../../elements/Icon';
+import i18n from '@ohif/i18n';
 import { useTranslation } from 'react-i18next';
+
 
 const getDateEntry = (datePicked, rangeDatePicked) => {
   return rangeDatePicked || datePicked || null;
@@ -59,17 +61,17 @@ function TableSearchFilter(props) {
 
   const studyDatePresets = [
     {
-      text: t('Today'),
+      text: t('今天'),
       start: today,
       end: today,
     },
     {
-      text: t('Last 7 days'),
+      text: t('过去一周'),
       start: lastWeek,
       end: today,
     },
     {
-      text: t('Last 30 days'),
+      text: t('过去一个月'),
       start: lastMonth,
       end: today,
     },

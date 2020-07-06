@@ -80,7 +80,7 @@ export default class DicomUploader extends Component {
     const wholeVolume = filesArray.map(f => f.size).reduce((a, b) => a + b);
     const uploadContext = Math.random();
     this.setState({
-      status: 'Uploading...',
+      status:'上传中...',
       files: filesDict,
       uploadedList: [],
       uploadedVolume: 0,

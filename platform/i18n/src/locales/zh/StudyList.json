@@ -6,6 +6,6 @@
   "StudyDescription": "描述",
   "StudyList": "检查列表",
   "MRN": "病案号",
-  "Accession #": "登记号",
+  "AccessionNumber": "PACS图像编号",
   "Description": "描述"
 }
