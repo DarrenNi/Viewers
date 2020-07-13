@@ -113,7 +113,8 @@ class DICOMFileLoadingListener extends BaseLoadingListener {
 
       this._updateProgress({
         percentComplete: 100,
-        loaded: dataSetLength,
+        loaded: 1,
+        // loaded: dataSetLength,
         total: dataSetLength,
       });
     }

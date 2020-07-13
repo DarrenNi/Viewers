@@ -32,7 +32,7 @@ describe('OHIF Download Snapshot File', () => {
     //Check if all elements are displayed
     cy.get('[data-cy=modal-header]')
       .as('downloadImageModal')
-      .should('contain.text', 'Download High Quality Image');
+      .should('contain.text', '高质量图片下载');
     // Check input fields
     cy.get('[data-cy=file-type]')
       .select('png')

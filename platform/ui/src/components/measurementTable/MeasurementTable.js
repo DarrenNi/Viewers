@@ -192,6 +192,7 @@ class MeasurementTable extends Component {
     const { timepoints, t } = this.props;
 
     return timepoints.map((timepoint, index) => {
+      console.log(timepoint)
       return (
         <div key={index} className="measurementTableHeaderItem">
           <div className="timepointLabel">{t(timepoint.key)}</div>

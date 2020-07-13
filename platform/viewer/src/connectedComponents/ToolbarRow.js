@@ -92,7 +92,7 @@ class ToolbarRow extends Component {
           const menuOptionEntry = {
             value: menuOption.target,
             icon: menuOption.icon,
-            bottomLabel: menuOption.label,
+            bottomLabel: "标记列表",
           };
           const from = menuOption.from || 'right';
 
@@ -376,7 +376,8 @@ function _handleBuiltIn(button) {
 
   if (options.behavior === 'DOWNLOAD_SCREEN_SHOT') {
     commandsManager.runCommand('showDownloadViewportModal', {
-      title: t('Download High Quality Image'),
+      // title: t('Download High Quality Image'),
+      title: '高质量图片下载',
     });
   }
 }

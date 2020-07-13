@@ -174,7 +174,7 @@ describe('OHIF Study Viewer Page', function() {
 
     // Click "Description"
     cy.get('.form-action')
-      .contains('Add Description')
+      .contains('添加描述')
       .click();
 
     // Enter description text

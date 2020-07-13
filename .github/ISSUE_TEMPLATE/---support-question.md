@@ -13,6 +13,6 @@ assignees: ''
 **Description**
 
 Questions can often be answered by our documentation. Unable to find an answer
-in our docs? We'll try to help. In the meantime, if you answer your own
+in our docs? We'll try to help. In the time, if you answer your own
 question, please respond with the answer here so that others may benefit as
 well. Better yet, open a PR to expand our docs ^\_^

@@ -32,7 +32,7 @@ export default class EditDescriptionDialog extends Component {
   render() {
     return (
       <SimpleDialog
-        headerTitle="Edit Description"
+        headerTitle="编辑描述"
         onClose={this.onClose}
         onConfirm={this.onConfirm}
         rootClass="editDescriptionDialog"

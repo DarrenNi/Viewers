@@ -22,7 +22,7 @@ const mapStateToProps = state => {
 
   const cineData = cine || {
     isPlaying: false,
-    cineFrameRate: 24,
+    cineFrameRate: 7.5,
   };
 
   // New props we're creating?

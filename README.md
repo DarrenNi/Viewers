@@ -183,7 +183,7 @@ Docs][deployment-docs]
 ## Projects
 
 The OHIF Medical Image Viewing Platform is maintained as a
-[`monorepo`][monorepo]. This means that this repository, instead of containing a
+[`monorepo`][monorepo]. This s that this repository, instead of containing a
 single project, contains many projects. If you explore our project structure,
 you'll see the following:
 

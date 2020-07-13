@@ -153,7 +153,7 @@ const LabellingFlow = ({
             items={OHIFLabellingData}
             columns={1}
             onSelected={selectTreeSelectCallback}
-            selectTreeFirstTitle="Assign Label"
+            selectTreeFirstTitle="设置标签"
           />
         );
       } else {
@@ -180,15 +180,15 @@ const LabellingFlow = ({
                 className="commonButton left"
                 onClick={relabel}
               >
-                Relabel
+                设为标签
               </button>
               <button
                 type="button"
                 className="commonButton right"
                 onClick={setDescriptionUpdateMode}
               >
-                {description ? 'Edit ' : 'Add '}
-                Description
+                {description ? '编辑' : '添加'}
+                描述
               </button>
             </div>
             <div className="editDescriptionButtons">
@@ -197,14 +197,14 @@ const LabellingFlow = ({
                 className="commonButton left"
                 onClick={descriptionCancel}
               >
-                Cancel
+                取消
               </button>
               <button
                 type="button"
                 className="commonButton right"
                 onClick={descriptionSave}
               >
-                Save
+                保存
               </button>
             </div>
           </>

@@ -23,13 +23,13 @@ const ToolContextMenu = ({
 }) => {
   const defaultDropdownItems = [
     {
-      label: 'Delete measurement',
+      label: '删除标记',
       actionType: 'Delete',
       action: ({ nearbyToolData, eventData }) =>
         onDelete(nearbyToolData, eventData),
     },
     {
-      label: 'Relabel',
+      label: '设置标签',
       actionType: 'setLabel',
       action: ({ nearbyToolData, eventData }) => {
         const { tool: measurementData } = nearbyToolData;
@@ -71,8 +71,8 @@ const ToolContextMenu = ({
 
         if (item.actionType === 'setDescription') {
           item.label = `${
-            nearbyToolData.tool.description ? 'Edit' : 'Add'
-          } Description`;
+            nearbyToolData.tool.description ? '编辑' : '添加'
+          }描述`;
         }
 
         dropdownItems.push(item);

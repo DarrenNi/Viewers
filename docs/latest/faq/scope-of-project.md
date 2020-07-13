@@ -37,7 +37,7 @@ support for services that are protected with OpenID-Connect.
 
 In an effort to aide our users and contributors, we attempt to provide several
 [deployment and hosting recipes](./deployment/index.md) as potential starting
-points. These are not meant to be rock solid, production ready, solutions; like
+points. These are not t to be rock solid, production ready, solutions; like
 most recipes, they should be augmented to best fit you and your organization's
 taste, preferences, etc.
 

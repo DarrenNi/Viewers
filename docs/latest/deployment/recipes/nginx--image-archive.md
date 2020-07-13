@@ -96,7 +96,7 @@ _Upload Your First Study_
 
 _Exit code 137_
 
-This means Docker ran out of memory. Open Docker Desktop, go to the `advanced`
+This s Docker ran out of memory. Open Docker Desktop, go to the `advanced`
 tab, and increase the amount of Memory available.
 
 _Cannot create container for service X_

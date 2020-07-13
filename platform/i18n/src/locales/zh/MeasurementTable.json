@@ -6,7 +6,7 @@
   "Description": "描述",
   "MAX": "最大",
   "NonTargets": "非靶向",
-  "Relabel": "重新标记",
+  "Relabel": "标签",
   "Targets": "靶向",
   "Save measurements": "保存"
 }

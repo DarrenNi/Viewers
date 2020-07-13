@@ -151,7 +151,7 @@ export class SelectTree extends Component {
             <input
               type="text"
               className="searchInput"
-              placeholder="Search labels"
+              placeholder="搜索标签"
               autoFocus={this.props.autoFocus}
               onChange={this.searchLocations}
               value={this.state.searchTerm ? this.state.searchTerm : ''}

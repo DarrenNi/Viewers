@@ -1,14 +1,14 @@
 {
-  "emptyFilenameError": "The file name cannot be empty.",
-  "fileType": "File Type",
-  "filename": "File Name",
-  "formTitle": "Please specify the dimensions, filename, and desired type for the output image.",
-  "imageHeight": "Image height (px)",
-  "imagePreview": "Image Preview",
-  "imageWidth": "Image width (px)",
-  "keepAspectRatio": "Keep aspect ratio",
-  "loadingPreview": "Loading Image Preview...",
-  "minHeightError": "The minimum valid height is 100px.",
-  "minWidthError": "The minimum valid width is 100px.",
-  "showAnnotations": "Show Annotations"
+  "emptyFilenameError": "图片名不能为空。",
+  "fileType": "图片格式",
+  "filename": "图片名称",
+  "formTitle": "请指定下载图片的文件名，尺寸和格式。",
+  "imageHeight": "图片高度 (像素)",
+  "imagePreview": "图片预览",
+  "imageWidth": "图片宽度 (像素)",
+  "keepAspectRatio": "保持长宽比",
+  "loadingPreview": "加载中...",
+  "minHeightError": "图片最小高度为100像素。",
+  "minWidthError": "图片最小宽度为100像素。",
+  "showAnnotations": "显示标记"
 }
